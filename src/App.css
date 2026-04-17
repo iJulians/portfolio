@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+@theme {
+  /* coolors */
+  --color-dark-primary: #020917;
+  --color-dark-secondary: #101725;
+  --color-desc: #7b879a;
+ 
+
+  /* fonts */
+  --font-primary: 'Poppins', sans-serif;
+
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button {
+  font-family: var(--font-primary);
+  cursor: none
+}
