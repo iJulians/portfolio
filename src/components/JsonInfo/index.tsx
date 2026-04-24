@@ -1,23 +1,27 @@
 export default function JsonInfo() {
-    const data = {
-        name: "Juliano Silveira",
-        role: "Desenvolvedor FullStack Jr",
-        location: "Brasil",
-        experience: "1 ano e 3 meses",
-        stack: ["JavaScript", "React", "Node.js", "TypeScript", "Tailwind CSS"]
-    }
+  const data = {
+    name: "Juliano Silveira",
+    role: "Desenvolvedor FullStack Jr",
+    location: "Brasil",
+    experience: "1 ano e 3 meses",
+    stack: ["JavaScript", "React", "Node.js", "TypeScript", "Tailwind CSS"]
+  }
 
 
-    return (
-        <div className="flex flex-col items-center justify-center bg-[#14141e] py-10 px-20 perspective-origin-bottom-right w-full border-t-2 border-t-blue-500/50 rounded-lg">
+  return (
+    <div className="flex flex-col items-center justify-center bg-[#14141e] py-10 px-20 
+        border-t-2 border-t-blue-500/50 rounded-lg w-150 h-150
+        animate-wiggle 2">
+    
 
-            <div className="flex w-full mb-10 justify-start">
-                <div className="rounded-lg bg-[#ff5f56] w-3 h-3 mr-2"></div>
-                <div className="rounded-lg bg-[#ffbd2e] w-3 h-3 mr-2"></div>
-                <div className="rounded-lg bg-[#27c93f] w-3 h-3 mr-2"></div>
-            </div>
-            <div className="w-full">
-                <div className="leading-relaxed space-y-1">
+      <div className="flex w-full mb-10 justify-start">
+        <div className="rounded-lg bg-[#ff5f56] w-3 h-3 mr-2"></div>
+        <div className="rounded-lg bg-[#ffbd2e] w-3 h-3 mr-2"></div>
+        <div className="rounded-lg bg-[#27c93f] w-3 h-3 mr-2"></div>
+      </div>
+
+      <div className="w-full">
+        <div className="leading-relaxed space-y-1">
 
           <div>
             <span className="text-purple-400">const</span>{" "}
@@ -83,7 +87,7 @@ export default function JsonInfo() {
 
         </div>
 
-            </div>
-        </div>
-    )
+      </div>
+    </div>
+  )
 }

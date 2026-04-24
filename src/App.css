@@ -11,6 +11,19 @@
   --font-primary: 'Poppins', sans-serif;
 
 
+
+  --animate-wiggle: wiggle 3s ease-in-out infinite;
+  @keyframes wiggle {
+    0%,
+    100% {
+      transform: translateY(-15px) skewY(6deg);
+      
+    }
+    50% {
+      transform: translateY(3px) skewY(6deg);
+    }
+  }
+
 }
 
 html {
@@ -20,4 +33,9 @@ html {
 button {
   font-family: var(--font-primary);
   cursor: none
+}
+
+
+section {
+  max-width: 1280px;
 }
