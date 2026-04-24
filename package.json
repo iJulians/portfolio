@@ -6,7 +6,8 @@
   "scripts": {
     "build": "rsbuild build",
     "dev": "rsbuild dev --open",
-    "preview": "rsbuild preview"
+    "preview": "wrangler dev",
+    "deploy": "wrangler deploy"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.2.2",
@@ -21,6 +22,7 @@
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "postcss-preset-env": "^11.2.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "wrangler": "^4.84.1"
   }
 }
