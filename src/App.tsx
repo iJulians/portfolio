@@ -1,5 +1,5 @@
 import './App.css';
-
+//Components
 import CustomCursor from './components/CustomCursor';
 import BarNavegation from './components/BarNavegation';
 
