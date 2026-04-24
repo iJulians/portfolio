@@ -9,7 +9,6 @@ import About from './pages/about';
 
 const App = () => {
   return (
-
       <>
         <BarNavegation />
         <CustomCursor />
