@@ -4,4 +4,8 @@ import { pluginReact } from '@rsbuild/plugin-react';
 // Docs: https://rsbuild.rs/config/
 export default defineConfig({
   plugins: [pluginReact()],
+  html: {template:'./public/index.html'},
+  source: {
+    entry: { main: './src/index.tsx' }
+  }
 });
