@@ -1,4 +1,5 @@
 import JsonInfo from "../../components/JsonInfo"
+
 export function About() {
     return (
         <>        <div className="w-full flex"
