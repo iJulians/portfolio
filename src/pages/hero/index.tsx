@@ -3,7 +3,7 @@ import JsonInfo from "../../components/JsonInfo"
 export default function Hero() {
     return (
         <>
-            <div className="w-full flex"
+            <div className="w-full h-full flex justify-center items-center gap-20"
                 id="hero"
             >
                 <div className="w-1/2 self-start">

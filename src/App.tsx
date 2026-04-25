@@ -14,7 +14,7 @@ const App = () => {
         <BarNavegation />
         <CustomCursor />
         <main className="min-h-screen">
-          <section className="w-full py-20 space-y-20">
+          <section className="w-full py-20 space-y-20 h-screen">
             <Hero />
           </section>
           <section className="w-full py-20 space-y-30 ">
